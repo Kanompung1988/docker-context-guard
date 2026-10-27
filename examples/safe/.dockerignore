@@ -1,0 +1,4 @@
+.git
+.env*
+**/*.pem
+node_modules
