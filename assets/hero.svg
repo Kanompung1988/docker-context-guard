@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">DOCKER  /  CONTEXT GUARD</title><desc id="desc">Synthetic Docker build context inspection to avoid accidental inclusion of secret-looking files</desc>
+<defs><linearGradient id="background" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0A1929"/><stop offset="1" stop-color="#122B40"/></linearGradient><linearGradient id="accent" x1="0" x2="1"><stop stop-color="#00D9FF"/><stop offset="1" stop-color="#00FFA3"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="14"/></filter></defs>
+<rect width="1280" height="420" rx="24" fill="url(#background)"/>
+<path d="M0 358 Q 420 283 760 360 T1280 310" fill="none" stroke="#00D9FF" opacity=".16" stroke-width="2"/>
+<text x="58" y="64" fill="#00FFA3" font-family="system-ui,Arial,sans-serif" font-weight="700" font-size="18" letter-spacing="4">AREAZERO / OPEN SOURCE LAB</text>
+<text x="58" y="164" fill="#F3F9FC" font-family="system-ui,Arial,sans-serif" font-size="51" font-weight="750">DOCKER  /  CONTEXT GUARD</text>
+<text x="58" y="225" fill="#A8C0D2" font-family="system-ui,Arial,sans-serif" font-size="24">Keep sensitive files outside the build boundary.</text>
+<rect x="58" y="269" width="350" height="2" rx="1" fill="url(#accent)"/>
+<text x="58" y="314" fill="#78D9E8" font-family="monospace" font-size="17">OFFLINE  •  READ ONLY  •  TESTED</text>
+
+<rect x="896" y="105" width="280" height="218" rx="20" fill="#10374C" stroke="#24DFD6" opacity=".95"/>
+<rect x="913" y="126" width="244" height="39" rx="8" fill="#00D9FF" opacity=".14"/>
+<text x="932" y="151" fill="#83E8ED" font-family="monospace" font-size="19">Dockerfile</text>
+<text x="923" y="210" fill="#D5F8FF" font-family="monospace" font-size="19">COPY . /app</text>
+<rect x="915" y="235" width="242" height="57" rx="9" fill="#F58B75" opacity=".12"/>
+<text x="927" y="270" fill="#FFB5A1" font-family="monospace" font-size="20">! .env.production</text>
+</svg>
